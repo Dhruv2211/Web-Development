@@ -19,6 +19,9 @@ var player2 = "Player 2 wins";
 if(randomNumber1>randomNumber2){
     document.querySelector("h1").innerHTML = player1;
 }
+else if (randomNumber1<randomNumber2){
+    document.querySelector("h1").innerHTML = player2;
+}
 else{
-    document.querySelector("h1").innerText = player2;
+    document.querySelector("h1").innerHTML = "Draw";
 }
